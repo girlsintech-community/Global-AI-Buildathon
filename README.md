@@ -2,7 +2,7 @@
 
 ## 🛠️ Local Setup
 
-Follow the steps to get HackAura running locally:
+Follow the steps to get Global AI buildathon running locally:
 
 ```bash
 # 1. Clone the repository
