@@ -44,10 +44,10 @@ const Partners = (props) => {
       hyperlink: "https://unstop.com/",
     },
     {
-      name: "unstop",
-      image: "./unstop.png",
+      name: "code 4 govTech",
+      image: "./c4gt.svg",
       company: "Code 4 GovTech",
-      hyperlink: "https://unstop.com/",
+      hyperlink: "http://codeforgovtech.in/",
     },
   ];
   return (
@@ -59,7 +59,7 @@ const Partners = (props) => {
           <span class="absolute inset-0 bg-red-400 translate-y-full transition-transform duration-700 ease-in-out group-hover:translate-y-0"></span>
         </div>
       </div>
-      <div className="gap-8 px-4 flex-wrap flex sm:flex justify-center items-center">
+      <div className="gap-8 px-4 flex-wrap flex sm:flex justify-center items-center rounded-2xl">
         {partner.map((partnerItem, index) => (
           <PartnerCard
             key={index}

@@ -54,7 +54,7 @@ export default function Preloader({ onComplete }) {
         </div>
       </div> */}
 
-      <div className="flex justify-center items-center mt-5 mb-10">
+      <div className="flex justify-center items-center mt-5 mb-10 ml-3 mr-3">
         <div className="text-shadow-lg/50 text-shadow-red-600 font-extrabold text-xl sm:text-xl md:text-4xl text-center bg-gray-700 p-6 rounded-4xl border-r-9 border-b-9 border-red-300 relative inline-block overflow-hidden">
           <h2 
             className="relative z-10 transition-colors duration-700 ease-in-out"
