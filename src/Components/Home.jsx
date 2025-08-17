@@ -91,7 +91,7 @@ const Home = () => {
     {
       id: 1,
       number: "1",
-      image: "trophy.svg",
+      image: "winner.svg",
       title: "Winner",
       description: [
         `<ul class="list-disc pl-5"><li>Exclusive Swags</li>
@@ -106,7 +106,7 @@ const Home = () => {
     {
       id: 2,
       number: "2",
-      image: "trophy.svg",
+      image: "firstrunner.svg",
       title: "First Runner Up",
       description: [
         `<ul class="list-disc pl-5"><li>Exclusive Swags</li>
@@ -120,7 +120,7 @@ const Home = () => {
     {
       id: 3,
       number: "3",
-      image: "trophy.svg",
+      image: "secondrunner.svg",
       title: "Second Runner Up",
       description: [
         `<ul class="list-disc pl-5"><li>Exclusive Swags</li>
@@ -135,7 +135,7 @@ const Home = () => {
       id: 4,
       number: "4",
       title: "All Participants",
-      image: "trophy.svg",
+      image: "certificate.svg",
       description: ["Certificate of participation"],
       certificate: true,
     },

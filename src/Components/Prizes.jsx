@@ -15,7 +15,7 @@ const Prizes = ({
               <img 
                 src={image} 
                 alt={`SDG ${number} - ${title}`}
-                className="w-55 h-55 object-contain shadow-lg shadow-gray-500 rounded-xl mb-4"
+                className="w-70 h-70 object-contain shadow-lg shadow-gray-200 rounded-xl mb-4"
                 onError={(e) => {
                   // Fallback if image fails to load
                   e.target.style.display = 'none';
