@@ -87,7 +87,7 @@ const Home = () => {
     },
   ];
 
-  const prizes = [
+  const prizesArray = [
     {
       id: 1,
       number: "1",
@@ -362,7 +362,7 @@ const Home = () => {
         </div>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-6 justify-items-center mb-7 bg-red-400 p-8 -mt-7">
-        {prizes.map((card) => (
+        {prizesArray.map((card) => (
           <Prizes
             key={card.id}
             number={card.number}
