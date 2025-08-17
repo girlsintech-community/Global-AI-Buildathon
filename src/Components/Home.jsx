@@ -171,7 +171,7 @@ const Home = () => {
   return (
     <div>
       <section className="bg-[#ff5757] pb-10 sm:pb-10">
-        <div className="relative border-t-[120px] sm:border-t-[110px] border-[#ff5757]">
+        <div className="relative border-t-[105px] sm:border-t-[100px] border-[#ff5757]">
           <svg
             viewBox="0 0 1200 20"
             className="w-full h-5"
@@ -190,7 +190,7 @@ const Home = () => {
           alt="banner"
           className="w-full h-[50vh] sm:h-[65vh] object-fit"
         />
-        <div className="relative">
+        <div className="relative sm:-mt-3">
           <svg
             viewBox="0 0 1200 20"
             className="w-full h-5"
