@@ -7,7 +7,7 @@ const PartnerCard = (props) => {
         <img
           src={props.image}
           alt={`${props.name} profile`}
-          className="w-80 h-48 sm:h-56 md:h-64 object-cover rounded-2xl group-hover:scale-[1.05]
+          className="w-120 h-48 sm:h-56 md:h-64 object-cover rounded-2xl group-hover:scale-[1.05]
                      transform transition-all duration-500 ease-in-out group-hover:shadow-lg shadow-gray-700 mb-3"
         />
         

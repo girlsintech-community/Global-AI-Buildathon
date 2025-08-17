@@ -22,6 +22,14 @@ const Home = () => {
     "UNSTOP",
   ];
 
+  const cardData = [
+    {
+      id: 1,
+      heading: "Global AI Buildathon",
+      content:
+        "<p>The Global AI Buildathon is a flagship event of the Girls Leading Tech Machine Learning Cohort. Bringing together 1000+ mentees from 7+ countries, this hackathon is more than just coding; it’s about using Artificial Intelligence and Machine Learning to drive impact. Each project is designed to address at least one UN Sustainable Development Goal (SDG), ensuring that innovation goes hand-in-hand with global responsibility.</p><br><p>With a diverse and inclusive participation model <b>1–3 members per team, with at least one female member </b>, we are committed to empowering women in technology and building an ecosystem of changemakers.</p>",
+    },
+  ];
   return (
     <div>
       <section className="bg-[#ff5757] pb-50 sm:pb-10">
@@ -59,7 +67,7 @@ const Home = () => {
           </svg>
         </div>
         <h2 className="text-2xl text-center text-[#FFF5EE] font-black relative z-10 -mt-20 mb-15">
-          8-Hour | 23rd August 2025
+          8-Hour Hackathon | 23rd August 2025
         </h2>
 
         <div className="flex sm:flex flex-wrap gap-3 justify-center items-center">
@@ -130,9 +138,15 @@ const Home = () => {
         </div>
 
         <div className="xl:flex justify-center sm:flex flex-wrap bg-red-400 p-8">
-          <Card />
-          <Card />
-          <Card />
+          {cardData.map((card) => (
+            <Card
+              key={card.id}
+              heading={card.heading} 
+              content={card.content}
+              height="auto"
+              width="100vh"
+            />
+          ))}
         </div>
       </div>
       <div className="relative bg-[#ff5757] mb-10">

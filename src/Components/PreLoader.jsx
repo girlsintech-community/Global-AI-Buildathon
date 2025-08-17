@@ -55,14 +55,14 @@ export default function Preloader({ onComplete }) {
       </div> */}
 
       <div className="flex justify-center items-center mt-5 mb-10">
-        <div className="text-shadow-lg/50 text-shadow-red-400 font-extrabold text-xl sm:text-xl md:text-4xl text-center bg-gray-700 p-6 rounded-4xl border-r-9 border-b-9 border-red-300 relative inline-block overflow-hidden">
+        <div className="text-shadow-lg/50 text-shadow-red-600 font-extrabold text-xl sm:text-xl md:text-4xl text-center bg-gray-700 p-6 rounded-4xl border-r-9 border-b-9 border-red-300 relative inline-block overflow-hidden">
           <h2 
             className="relative z-10 transition-colors duration-700 ease-in-out"
             style={{
               color: startAnimation ? 'rgb(55 65 81)' : 'rgb(248 113 113)'
             }}
           >
-            Loading....
+           AI/ML Ultimate Showdown Loading....
           </h2>
           <span 
             className="absolute inset-0 bg-red-400 transition-transform duration-1000 ease-in-out"

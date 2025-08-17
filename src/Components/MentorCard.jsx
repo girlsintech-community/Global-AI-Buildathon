@@ -69,9 +69,8 @@ const MentorCard = ({
             <p
               className="text-sm sm:text-base md:text-lg text-red-500 font-semibold 
                         truncate flex-1 group-hover:text-gray-600 transition-colors duration-300"
-            >
-              {company}
-            </p>
+              dangerouslySetInnerHTML={{ __html: company }}
+            ></p>
             <p
               className="text-sm sm:text-base md:text-lg text-red-500 font-semibold 
                         text-right flex-1 group-hover:text-gray-600 transition-colors duration-300"
@@ -80,7 +79,6 @@ const MentorCard = ({
             </p>
           </div>
 
-        
           <hr
             className="w-full h-px text-red-500
                        group-hover:text-gray-600 group-hover:transition-opacity duration-300 mt-auto"

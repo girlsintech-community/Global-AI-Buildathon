@@ -6,28 +6,41 @@ const Faq = () => {
 
   const faqs = [
     {
-      question: "Question",
-      answer: "Answer",
+      question: "Who can participate?",
+      answer: "Any student passionate about AI/ML is welcome to participate.",
     },
     {
-      question: "Question",
-      answer: "Answer",
+      question: "Do I need prior AI/ML experience?",
+      answer: "No. Beginners, intermediates, and experts are all encouraged.",
     },
     {
-      question: "Question",
-      answer: "Answer",
+      question: "What’s the team size?",
+      answer:
+        "Teams can have 1–3 members, but at least one female participant is mandatory.",
     },
     {
-      question: "Question",
-      answer: "Answer",
+      question: "What themes can we build projects on?",
+      answer:
+        "Projects must align with at least one UN Sustainable Development Goal (SDG). You are free to choose any problem statement under the 17 SDGs.",
     },
     {
-      question: "Question",
-      answer: "Answer",
+      question: "What’s the format of the hackathon?",
+      answer:
+        "It’s a virtual 8-hour buildathon with an opening ceremony, project building time, and final submissions.",
     },
     {
-      question: "Question",
-      answer: "Answer",
+      question: "Will there be prizes?",
+      answer:
+        "Yes! Winners will be recognized globally, receive mentorship opportunities, and be featured across our community platforms. Participants also get certificates, digital swags, and Canva Premium Access.",
+    },
+    {
+      question: "How will impact be measured?",
+      answer:
+        "Impact is measured through the relevance of your AI solution to real-world problems, your team diversity, and contribution to the SDGs. Innovation, idea feasibility, and scalability are also key factors.",
+    },
+    {
+      question: "Is there any fee?",
+      answer: "No, it’s free of cost for all participants.",
     },
   ];
 
@@ -47,8 +60,7 @@ const Faq = () => {
               <span class="absolute inset-0 bg-red-400 translate-y-full transition-transform duration-700 ease-in-out group-hover:translate-y-0"></span>
             </div>
           </div>
-           </div>
-       
+        </div>
 
         {/* FAQ Items */}
         <div className="space-y-4">
