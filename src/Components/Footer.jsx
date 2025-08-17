@@ -96,7 +96,7 @@ export default function Footer() {
 
                 {/* LinkedIn */}
                 <a
-                  href="https://www.instagram.com/girlsleadingtech"
+                  href="https://www.linkedin.com/company/girlsleadingtech/"
                   className="text-[#FFF5EE] hover:text-gray-500 transition-all duration-500 border-2 border-[#FFF5EE] hover:border-gray-500 p-1.5 xs:p-2 sm:p-2.5 md:p-3 lg:p-3.5 xl:p-4 rounded-lg sm:rounded-xl hover:shadow-md flex-shrink-0"
                   aria-label="LinkedIn page"
                 >
@@ -153,15 +153,15 @@ export default function Footer() {
                     to="/tracks"
                     className="text-sm sm:text-base hover:underline hover:text-gray-500 transition-colors"
                   >
-                    Tracks
+                    Theme
                   </Link>
                 </li>
                 <li>
                   <Link
-                    to="/mentors"
+                    to="/partners"
                     className="text-sm sm:text-base hover:underline hover:text-gray-500 transition-colors"
                   >
-                    Mentors & Judges
+                    Our partners
                   </Link>
                 </li>
                 <li>

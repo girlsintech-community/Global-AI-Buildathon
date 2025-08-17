@@ -21,6 +21,7 @@ export default function AppWithPreloader({ router }) {
   return loading ? (
     <Preloader onComplete={() => setLoading(false)} />
   ) : (
-    <RouterProvider router={router} />
+    <RouterProvider router={router} >
+    </RouterProvider>
   );
 }
