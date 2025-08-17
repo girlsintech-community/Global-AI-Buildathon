@@ -2,7 +2,7 @@ import React from "react";
 import Card from "./Card";
 import Tape from "./Tape";
 import FlipCard from "./FlipCard";
-import Prizes from "./prizes";
+import Prizes from "./Prizes";
 
 const Home = () => {
   const words = [
