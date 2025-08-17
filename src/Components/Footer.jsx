@@ -174,7 +174,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <Link
-                    to="/"
+                    to="/faqs"
                     className="text-sm sm:text-base hover:underline hover:text-gray-500 transition-colors"
                   >
                     FAQ's
