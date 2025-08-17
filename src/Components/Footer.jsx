@@ -10,7 +10,7 @@ export default function Footer() {
           <div className="flex-shrink-0">
             <Link to="/About" className="flex items-center mr-22">
               <img
-                src="./public/logo.png"
+                src="logo.png"
                 className="h-30 w-30 sm:h-20 sm:w-20 md:h-34 md:w-34"
                 alt="Logo"
               />
@@ -38,7 +38,7 @@ export default function Footer() {
 
                 {/* Twitter */}
                 <a
-                  href="#"
+                  href="https://x.com/GirlLeadingTech"
                   className="text-[#FFF5EE] hover:text-gray-500 transition-all duration-500 border-2 border-[#FFF5EE] hover:border-gray-500 p-1.5 xs:p-2 sm:p-2.5 md:p-3 lg:p-3.5 xl:p-4 rounded-lg sm:rounded-xl hover:shadow-md flex-shrink-0"
                   aria-label="Twitter page"
                 >
@@ -60,7 +60,7 @@ export default function Footer() {
 
                 {/* WhatsApp */}
                 <a
-                  href="#"
+                  href="https://chat.whatsapp.com/Dhgx45koEuhBiPEURHPSYG"
                   className="text-[#FFF5EE] hover:text-gray-500 transition-all duration-500 border-2 border-[#FFF5EE] hover:border-gray-500 p-1.5 xs:p-2 sm:p-2.5 md:p-3 lg:p-3.5 xl:p-4 rounded-lg sm:rounded-xl hover:shadow-md flex-shrink-0"
                   aria-label="WhatsApp"
                 >
@@ -78,7 +78,7 @@ export default function Footer() {
 
                 {/* Instagram */}
                 <a
-                  href="#"
+                  href="https://www.instagram.com/girlsleadingtech"
                   className="text-[#FFF5EE] hover:text-gray-500 transition-all duration-500 border-2 border-[#FFF5EE] hover:border-gray-500 p-1.5 xs:p-2 sm:p-2.5 md:p-3 lg:p-3.5 xl:p-4 rounded-lg sm:rounded-xl hover:shadow-md flex-shrink-0"
                   aria-label="Instagram page"
                 >
@@ -96,7 +96,7 @@ export default function Footer() {
 
                 {/* LinkedIn */}
                 <a
-                  href="#"
+                  href="https://www.instagram.com/girlsleadingtech"
                   className="text-[#FFF5EE] hover:text-gray-500 transition-all duration-500 border-2 border-[#FFF5EE] hover:border-gray-500 p-1.5 xs:p-2 sm:p-2.5 md:p-3 lg:p-3.5 xl:p-4 rounded-lg sm:rounded-xl hover:shadow-md flex-shrink-0"
                   aria-label="LinkedIn page"
                 >
@@ -114,7 +114,7 @@ export default function Footer() {
 
                 {/* YouTube */}
                 <a
-                  href="#"
+                  href="https://www.youtube.com/@GirlsLeadingTech"
                   className="text-[#FFF5EE] hover:text-gray-500 transition-all duration-500 border-2 border-[#FFF5EE] hover:border-gray-500 p-1.5 xs:p-2 sm:p-2.5 md:p-3 lg:p-3.5 xl:p-4 rounded-lg sm:rounded-xl hover:shadow-md flex-shrink-0"
                   aria-label="YouTube channel"
                 >

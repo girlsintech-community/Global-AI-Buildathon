@@ -39,13 +39,13 @@ const Partners = (props) => {
   const partner = [
     {
       name: "unstop",
-      image: "/unstop.png",
+      image: "unstop.png",
       company: "UNSTOP",
       hyperlink: "https://unstop.com/",
     },
     {
       name: "code 4 govTech",
-      image: "./c4gt.svg",
+      image: "c4gt.svg",
       company: "Code 4 GovTech",
       hyperlink: "http://codeforgovtech.in/",
     },

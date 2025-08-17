@@ -32,7 +32,7 @@ const Navbar = () => {
             className="flex items-center"
           >
             <img
-              src="./public/logo.png"
+              src="logo.png"
               alt="glt-logo"
               className="h-15 w-15 object-contain"
             />

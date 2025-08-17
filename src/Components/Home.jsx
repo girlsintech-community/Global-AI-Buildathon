@@ -186,7 +186,7 @@ const Home = () => {
           </svg>
         </div>
         <img
-          src="./public/landingPage.png"
+          src="landingPage.png"
           alt="banner"
           className="w-full h-[40vh] sm:h-[65vh] object-fit"
         />
