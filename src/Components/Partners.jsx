@@ -125,7 +125,7 @@ const Partners = (props) => {
           <span class="absolute inset-0 bg-red-400 translate-y-full transition-transform duration-700 ease-in-out group-hover:translate-y-0"></span>
         </div>
       </div>
-      <div className="flex justify-center items-center pr-80 pl-80 flex-wrap">
+      <div className="flex justify-center items-center sm:pr-80 sm:pl-80 pl-4 pr-4 flex-wrap">
         <h1 className="text-gray-600 font-bold text-center mb-7">
           Join us in shaping the future of technology and impact. By partnering
           with the Global AI Buildathon, you’re not just supporting a

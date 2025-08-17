@@ -10,11 +10,11 @@ const Navbar = () => {
   };
 
   const navItems = [
-    { label: "About", href: "/About" },
+    { label: "About", href: "/about" },
     { label: "Humans", href: "/humans" },
     { label: "Partners", href: "/partners" },
     { label: "Theme", href: "/tracks" },
-     { label: "Rules", href: "/rules" },
+    { label: "Rules", href: "/rules" },
     { label: "FAQs", href: "/faqs" },
   ];
 
@@ -22,11 +22,11 @@ const Navbar = () => {
     <div className="fixed top-5 left-1/2 transform -translate-x-1/2 w-full max-w-7xl px-4 z-30">
       <nav
         className=" border-3 border-red-300 rounded-4xl shadow-lg"
-        style={{ backgroundColor: "#FFF5EE" }} 
+        style={{ backgroundColor: "#FFF5EE" }}
       >
         <div className="flex justify-between items-center h-17 px-6 ">
           {/* Logo */}
-          <a
+          <NavLink
             href="/About"
             aria-label="Back to homepage"
             className="flex items-center"
@@ -36,7 +36,7 @@ const Navbar = () => {
               alt="glt-logo"
               className="h-15 w-15 object-contain"
             />
-          </a>
+          </NavLink>
 
           {/* Desktop Menu */}
           <ul className="hidden lg:flex items-center space-x-8">
@@ -71,18 +71,22 @@ const Navbar = () => {
         </div>
 
         {/* Mobile Menu */}
+        {/* Mobile Menu */}
         {isMenuOpen && (
-          <div className="lg:hidden border-t border-red-200 rounded-b-2xl" style={{backgroundColor:"#FFF5EE"}}>
+          <div
+            className="lg:hidden border-2 border-red-200 rounded-b-4xl"
+            style={{ backgroundColor: "#FFF5EE" }}
+          >
             <ul className="py-4 px-6 space-y-2">
               {navItems.map((item, index) => (
                 <li key={index}>
-                  <a
-                    href={item.href}
+                  <NavLink // Changed from <a> to <NavLink>
+                    to={item.href} // Changed from href to to
                     className="block text-gray-700 hover:text-red-500 font-medium transition-colors duration-200 px-3 py-3 rounded-lg hover:bg-gray-150"
                     onClick={() => setIsMenuOpen(false)}
                   >
                     {item.label}
-                  </a>
+                  </NavLink>
                 </li>
               ))}
             </ul>

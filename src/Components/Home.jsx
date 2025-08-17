@@ -170,8 +170,8 @@ const Home = () => {
   ];
   return (
     <div>
-      <section className="bg-[#ff5757] pb-50 sm:pb-10">
-        <div className="relative border-t-[220px] sm:border-t-[110px] border-[#ff5757]">
+      <section className="bg-[#ff5757] pb-10 sm:pb-10">
+        <div className="relative border-t-[120px] sm:border-t-[110px] border-[#ff5757]">
           <svg
             viewBox="0 0 1200 20"
             className="w-full h-5"
@@ -188,7 +188,7 @@ const Home = () => {
         <img
           src="landingPage.png"
           alt="banner"
-          className="w-full h-[40vh] sm:h-[65vh] object-fit"
+          className="w-full h-[50vh] sm:h-[65vh] object-fit"
         />
         <div className="relative">
           <svg
@@ -204,13 +204,13 @@ const Home = () => {
             />
           </svg>
         </div>
-        <h2 className="text-2xl text-center text-[#FFF5EE] font-black relative z-10 -mt-20 mb-15">
+        <h2 className="sm:text-2xl text-center text-[#FFF5EE] font-black relative z-10 -mt-15 sm:-mt-20 sm:mb-15">
           8-Hour Hackathon | 23rd August 2025
         </h2>
 
         <div className="flex sm:flex flex-wrap gap-3 justify-center items-center">
           <div className="flex justify-center items-center mt-10 sm:mt-3">
-            <div className="font-extrabold text-xl sm:text-2xl md:text-3xl text-gray-700 text-center bg-[#FFF5EE] p-6 rounded-4xl border-r-9 border-b-9 border-gray-500  hover:border-5 hover:border-gray-700 hover:transition-all ease-in-out duration-75">
+            <div className="font-extrabold text-base sm:text-2xl md:text-3xl text-gray-700 text-center bg-[#FFF5EE] p-6 rounded-4xl sm:border-r-9 sm:border-b-9 border-gray-500  hover:border-5 hover:border-gray-700 hover:transition-all ease-in-out duration-75 border-r-5 border-b-5">
               <h2 className="relative z-10">
                 <a
                   href="https://unstop.com/hackathons/global-ai-buildathon-chandigarh-group-of-colleges-landran-1531869/"
@@ -222,8 +222,8 @@ const Home = () => {
             </div>
           </div>
 
-          <div className="flex justify-center items-center mt-5 sm:mt-3">
-            <div className="font-extrabold text-xl sm:text-2xl md:text-3xl text-gray-700 text-center bg-[#FFF5EE] p-6 rounded-4xl border-r-9 border-b-9 border-gray-500  hover:border-5 hover:border-gray-700 hover:transition-all ease-in-out duration-75">
+          <div className="flex justify-center items-center sm:mt-3">
+            <div className="font-extrabold text-base sm:text-2xl md:text-3xl text-gray-700 text-center bg-[#FFF5EE] p-6 rounded-4xl sm:border-r-9 sm:border-b-9 border-gray-500  hover:border-5 hover:border-gray-700 hover:transition-all ease-in-out duration-75 border-r-5 border-b-5">
               <h2 className="relative z-10">
                 <a
                   href="https://chat.whatsapp.com/Dhgx45koEuhBiPEURHPSYG"
@@ -237,7 +237,7 @@ const Home = () => {
         </div>
       </section>
 
-      <div className="relative h-80 mt-10 mb-5 overflow-hidden">
+      <div className="relative h-80 sm:mt-10 mb-5 overflow-hidden">
         <Tape
           textList={words}
           rotation="-rotate-6"
@@ -253,7 +253,7 @@ const Home = () => {
         />
       </div>
 
-      <div id="#about" className="relative bg-[#ff5757] mt-15">
+      <div id="#about" className="relative bg-[#ff5757] sm:mt-15">
         <svg
           viewBox="0 0 1200 20"
           className="w-full h-5"
@@ -268,7 +268,7 @@ const Home = () => {
         </svg>
       </div>
       <div className="space-x-2">
-        <div className="flex justify-center items-center bg-red-400 pt-9 w-full">
+        <div className="flex justify-center items-center bg-red-400 pt-9 pb-1 w-full">
           <div className="font-extrabold text-xl sm:text-2xl md:text-3xl text-red-400 text-center bg-gray-700 p-6 rounded-4xl border-r-9 border-b-9 border-red-300 hover:text-gray-700 hover:border-gray-500 relative inline-block overflow-hidden group">
             <h2 className="relative z-10">About</h2>
             <span className="absolute inset-0 bg-red-300 translate-y-full transition-transform duration-700 ease-in-out group-hover:translate-y-0"></span>
@@ -324,7 +324,7 @@ const Home = () => {
           <span className="absolute inset-0 bg-red-400 translate-y-full transition-transform duration-700 ease-in-out group-hover:translate-y-0"></span>
         </div>
       </div>
-      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 xl:grid-cols-6 gap-8 justify-items-center p-8 text-center items-center">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 xl:grid-cols-6 gap-6 justify-items-center p-8 text-center items-center">
         {stats.map((card) => (
           <Card
             key={card.id}
