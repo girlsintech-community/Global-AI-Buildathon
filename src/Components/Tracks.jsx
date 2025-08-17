@@ -3,179 +3,145 @@ import Card from "./Card";
 import FlipCard from "./FlipCard";
 
 const Tracks = () => {
-  const displayData = [
-    {
-      id: 1,
-      number: 1,
-      title: "No Poverty",
-      image: "./nopoverty.svg",
-      description:
-        "End poverty in all its forms everywhere. This goal aims to eradicate extreme poverty for all people everywhere, currently measured as people living on less than $1.25 a day.",
-      targetYear: "2030",
-      priority: "High Priority",
-    },
-    {
-      id: 2,
-      number: 2,
-      title: "Zero Hunger",
-      image: "./zerohunger.svg",
-      description:
-        "End hunger, achieve food security and improved nutrition and promote sustainable agriculture. This goal seeks to ensure access to safe, nutritious food for all.",
-      targetYear: "2030",
-      priority: "Critical",
-    },
-    {
-      id: 3,
-      number: 3,
-      title: "Good Health",
-      image: "./goodhealth.svg",
-      description:
-        "Ensure healthy lives and promote well-being for all at all ages. This includes reducing maternal mortality and ending epidemics of major diseases.",
-      targetYear: "2030",
-      priority: "High Priority",
-    },
-    {
-      id: 4,
-      number: 4,
-      title: "Quality Education",
-      image: "./education.svg",
-      description:
-        "Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all. Education is the foundation for improving people's lives.",
-      targetYear: "2030",
-      priority: "High Priority",
-    },
-    {
-      id: 5,
-      number: 5,
-      title: "Gender Equality",
-      image: "./genderequality.svg",
-      description:
-        "Achieve gender equality and empower all women and girls. This goal aims to end all forms of discrimination against women and girls everywhere.",
-      targetYear: "2030",
-      priority: "Critical",
-    },
-    {
-      id: 6,
-      number: 6,
-      title: "Clean Water",
-      image: "./cleanwater.svg",
-      description:
-        "Ensure availability and sustainable management of water and sanitation for all. Access to safe water, sanitation and hygiene is the most basic human need.",
-      targetYear: "2030",
-      priority: "High Priority",
-    },
-    {
-      id: 7,
-      number: 7,
-      title: "Clean Water",
-      image: "./cleanwater.svg",
-      description:
-        "Ensure availability and sustainable management of water and sanitation for all. Access to safe water, sanitation and hygiene is the most basic human need.",
-      targetYear: "2030",
-      priority: "High Priority",
-    },
-    {
-      id: 8,
-      number: 8,
-      title: "Clean Water",
-      image: "./cleanwater.svg",
-      description:
-        "Ensure availability and sustainable management of water and sanitation for all. Access to safe water, sanitation and hygiene is the most basic human need.",
-      targetYear: "2030",
-      priority: "High Priority",
-    },
-    {
-      id: 9,
-      number: 9,
-      title: "Clean Water",
-      image: "./cleanwater.svg",
-      description:
-        "Ensure availability and sustainable management of water and sanitation for all. Access to safe water, sanitation and hygiene is the most basic human need.",
-      targetYear: "2030",
-      priority: "High Priority",
-    },
-    {
-      id: 10,
-      number: 10,
-      title: "Clean Water",
-      image: "./cleanwater.svg",
-      description:
-        "Ensure availability and sustainable management of water and sanitation for all. Access to safe water, sanitation and hygiene is the most basic human need.",
-      targetYear: "2030",
-      priority: "High Priority",
-    },
-    {
-      id: 11,
-      number: 11,
-      title: "Clean Water",
-      image: "./cleanwater.svg",
-      description:
-        "Ensure availability and sustainable management of water and sanitation for all. Access to safe water, sanitation and hygiene is the most basic human need.",
-      targetYear: "2030",
-      priority: "High Priority",
-    },
-    {
-      id: 12,
-      number: 12,
-      title: "Clean Water",
-      image: "./cleanwater.svg",
-      description:
-        "Ensure availability and sustainable management of water and sanitation for all. Access to safe water, sanitation and hygiene is the most basic human need.",
-      targetYear: "2030",
-      priority: "High Priority",
-    },
-    {
-      id: 13,
-      number: 13,
-      title: "Clean Water",
-      image: "./cleanwater.svg",
-      description:
-        "Ensure availability and sustainable management of water and sanitation for all. Access to safe water, sanitation and hygiene is the most basic human need.",
-      targetYear: "2030",
-      priority: "High Priority",
-    },
-    {
-      id: 14,
-      number: 14,
-      title: "Clean Water",
-      image: "./cleanwater.svg",
-      description:
-        "Ensure availability and sustainable management of water and sanitation for all. Access to safe water, sanitation and hygiene is the most basic human need.",
-      targetYear: "2030",
-      priority: "High Priority",
-    },
-    {
-      id: 15,
-      number: 15,
-      title: "Clean Water",
-      image: "./cleanwater.svg",
-      description:
-        "Ensure availability and sustainable management of water and sanitation for all. Access to safe water, sanitation and hygiene is the most basic human need.",
-      targetYear: "2030",
-      priority: "High Priority",
-    },
-    {
-      id: 16,
-      number: 16,
-      title: "Clean Water",
-      image: "./cleanwater.svg",
-      description:
-        "Ensure availability and sustainable management of water and sanitation for all. Access to safe water, sanitation and hygiene is the most basic human need.",
-      targetYear: "2030",
-      priority: "High Priority",
-    },
-    {
-      id: 17,
-      number: 17,
-      title: "Clean Water",
-      image: "./cleanwater.svg",
-      description:
-        "Ensure availability and sustainable management of water and sanitation for all. Access to safe water, sanitation and hygiene is the most basic human need.",
-      targetYear: "2030",
-      priority: "High Priority",
-    },
-  ];
-  
+const displayData = [
+  {
+    id: 1,
+    number: 1,
+    title: "No Poverty",
+    image: "./nopoverty.svg",
+    description:
+      "Over 700 million people still live on less than $2 a day. Poverty steals dreams before they even begin.",
+  },
+  {
+    id: 2,
+    number: 2,
+    title: "Zero Hunger",
+    image: "./zerohunger.svg",
+    description:
+      "1 in 9 people go to bed hungry every night. No one should have to choose between food and survival.",
+  },
+  {
+    id: 3,
+    number: 3,
+    title: "Good Health and Well-being",
+    image: "./goodhealth.svg",
+    description:
+      "Every 2 seconds, someone under 70 dies from a non-communicable disease. Health is not a privilege, it’s a right.",
+  },
+  {
+    id: 4,
+    number: 4,
+    title: "Quality Education",
+    image: "./education.svg",
+    description:
+      "263 million children and youth are out of school. Without education, the future remains locked.",
+  },
+  {
+    id: 5,
+    number: 5,
+    title: "Gender Equality",
+    image: "./genderequality.svg",
+    description:
+      "Women earn 20% less than men globally. Equality cannot wait another generation.",
+  },
+  {
+    id: 6,
+    number: 6,
+    title: "Clean Water and Sanitation",
+    image: "./cleanwater.svg",
+    description:
+      "1 in 3 people lack safe drinking water. Water should give life, not take it away.",
+  },
+  {
+    id: 7,
+    number: 7,
+    title: "Affordable and Clean Energy",
+    image: "./affordable.svg",
+    description:
+      "770 million people still live without electricity. Energy is the spark of opportunity.",
+  },
+  {
+    id: 8,
+    number: 8,
+    title: "Decent Work and Economic Growth",
+    image: "./decentwork.svg",
+    description:
+      "Billions of workers face insecurity and low wages. Growth means nothing if people are left behind.",
+  },
+  {
+    id: 9,
+    number: 9,
+    title: "Industry, Innovation and Infrastructure",
+    image: "./industry.svg",
+    description:
+      "Over 1 billion people lack access to basic infrastructure. Innovation should connect, not divide.",
+  },
+  {
+    id: 10,
+    number: 10,
+    title: "Reduced Inequalities",
+    image: "./reduced.svg",
+    description:
+      "The richest 10% own more than 75% of the world’s wealth. Inequality is humanity’s greatest wound.",
+  },
+  {
+    id: 11,
+    number: 11,
+    title: "Sustainable Cities and Communities",
+    image: "./sustainable.svg",
+    description:
+      "By 2050, 7 in 10 people will live in cities. Without planning, they will become prisons of pollution.",
+  },
+  {
+    id: 12,
+    number: 12,
+    title: "Responsible Consumption and Production",
+    image: "./responsible.svg",
+    description:
+      "If everyone consumed like the average person, we’d need 3 Earths. Our choices today shape tomorrow’s survival.",
+  },
+  {
+    id: 13,
+    number: 13,
+    title: "Climate Action",
+    image: "./climate.svg",
+    description:
+      "The last 7 years have been the hottest in history. Our planet is crying for action now.",
+  },
+  {
+    id: 14,
+    number: 14,
+    title: "Life Below Water",
+    image: "./lifewater.svg",
+    description:
+      "8 million tonnes of plastic enter our oceans each year. By 2050, fish may be outnumbered by plastic.",
+  },
+  {
+    id: 15,
+    number: 15,
+    title: "Life on Land",
+    image: "./lifeland.svg",
+    description:
+      "Every year, we lose 10 million hectares of forest. When forests die, humanity suffocates.",
+  },
+  {
+    id: 16,
+    number: 16,
+    title: "Peace, Justice and Strong Institutions",
+    image: "./peace.svg",
+    description:
+      "Conflict has forced 110 million people from their homes. Without peace, no progress is possible.",
+  },
+  {
+    id: 17,
+    number: 17,
+    title: "Partnerships for the Goals",
+    image: "./partnership.svg",
+    description:
+      "No goal can be achieved alone. Together is the only way forward.",
+  },
+];
+
   const customContent = [
     {
       heading: "Theme for the Hackathon: AI for a Sustainable Future",
@@ -226,7 +192,7 @@ const Tracks = () => {
           <span class="absolute inset-0 bg-red-400 translate-y-full transition-transform duration-700 ease-in-out group-hover:translate-y-0"></span>
         </div>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-8 justify-items-center">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-6 justify-items-center mb-7">
         {displayData.map((card) => (
           <FlipCard
             key={card.id}
@@ -234,8 +200,6 @@ const Tracks = () => {
             title={card.title}
             image={card.image}
             description={card.description}
-            targetYear={card.targetYear}
-            priority={card.priority}
           />
         ))}
       </div>

@@ -3,12 +3,10 @@ const FlipCard = ({
   title, 
   image, 
   description, 
-  targetYear, 
-  priority
 }) => {
   return (
     <div className="w-80 h-96 perspective-1000">
-      <div className="relative w-full h-full transition-transform duration-700 transform-style-preserve-3d hover:rotate-y-180 group mb-10">
+      <div className="relative w-full h-full transition-transform duration-700 transform-style-preserve-3d hover:rotate-y-180 group">
         
         {/* Front Side */}
         <div className="absolute inset-0 w-full h-full backface-hidden bg-white rounded-xl shadow-lg border-2 border-red-300">
@@ -17,7 +15,7 @@ const FlipCard = ({
               <img 
                 src={image} 
                 alt={`SDG ${number} - ${title}`}
-                className="w-auto h-auto object-contain shadow-lg shadow-gray-500 rounded-xl mb-4"
+                className="w-55 h-55 object-contain shadow-lg shadow-gray-500 rounded-xl mb-4"
                 onError={(e) => {
                   // Fallback if image fails to load
                   e.target.style.display = 'none';
@@ -26,7 +24,7 @@ const FlipCard = ({
               />
             
             {/* SDG Title */}
-            <h3 className="text-2xl font-bold text-red-800 text-center mb-2">
+            <h3 className="text-xl font-bold text-red-800 text-center mb-2">
               {title}
             </h3>
             
@@ -40,26 +38,14 @@ const FlipCard = ({
         {/* Back Side */}
         <div className="absolute inset-0 w-full h-full backface-hidden rotate-y-180 bg-red-400 rounded-xl shadow-lg border-4 border-gray-400">
           <div className="h-full p-6 flex flex-col justify-center">
-            <div className="bg-gray-50 border-l-4 border-gray-400 p-4 rounded-3xl mb-4">
-              <h4 className="text-xl font-bold text-gray-700 mb-3 border-b-2 border-gray-500 pb-2">
+            <div className="bg-gray-50 border-4 border-gray-400 p-4 rounded-3xl mb-4">
+              {/* <h4 className="text-xl font-bold text-gray-700 mb-3 border-b-2 border-gray-500 pb-2">
                 Goal {number}: {title}
-              </h4>
+              </h4> */}
               
-              <p className="text-gray-700 leading-relaxed mb-4 text-sm">
+              <p className="text-gray-700 leading-relaxed mb-4 text-2xl font-black">
                 {description}
               </p>
-              
-              <div className="space-y-2">
-                <div className="flex items-center space-x-2">
-                  <div className="w-2 h-2 bg-red-500 rounded-full"></div>
-                  <span className="text-gray-600 text-sm">Target Achievement: {targetYear}</span>
-                </div>
-                <div className="flex items-center space-x-2">
-                  <div className="w-2 h-2 bg-red-500 rounded-full"></div>
-                  <span className="text-gray-600 text-sm">Global Impact: {priority}</span>
-                </div>
-              </div>
-            </div>
     
           </div>
         </div>
@@ -83,6 +69,7 @@ const FlipCard = ({
           transform: rotateY(180deg);
         }
       `}</style>
+    </div>
     </div>
   );
 };
