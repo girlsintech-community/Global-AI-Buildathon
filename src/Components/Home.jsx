@@ -171,7 +171,7 @@ const Home = () => {
   return (
     <div>
       <section className="bg-[#ff5757] pb-15 sm:pb-10">
-        <div className="relative border-t-[105px] sm:border-t-[100px] border-[#ff5757]">
+        <div className="relative border-t-[100px] sm:border-t-[100px] border-[#ff5757]">
           <svg
             viewBox="0 0 1200 20"
             className="w-full h-5"
@@ -186,12 +186,12 @@ const Home = () => {
           </svg>
         </div>
         <img
-          src="landingPage.png"
+          src="finaldesktopbanner.svg"
           alt="banner"
-          className="w-full hidden sm:h-[65vh] sm:inline-block object-fit"
+          className="w-full hidden sm:h-auto sm:inline-block"
         />
-        <img src="finalbanner.png" alt="banner" className="sm:hidden w-auto h-100"/>
-        <div className="relative sm:-mt-3">
+        <img src="banner.svg" alt="banner" className="sm:hidden w-auto h-full"/>
+        <div className="relative sm:-mt-2">
           <svg
             viewBox="0 0 1200 20"
             className="w-full h-5"
@@ -205,12 +205,12 @@ const Home = () => {
             />
           </svg>
         </div>
-        <h2 className="sm:text-2xl text-center text-[#FFF5EE] font-black relative z-10 -mt-15 sm:-mt-20 sm:mb-15">
+        <h2 className="text-lg sm:text-2xl text-center text-[#FFF5EE] font-black relative z-10 -mt-15 sm:-mt-20 sm:mb-15">
           8-Hour Hackathon | 23rd August 2025
         </h2>
 
         <div className="flex gap-3 justify-center items-center">
-          <div className="flex justify-center items-center mt-16 ml-4 sm:mt-3">
+          <div className="flex justify-center items-center mt-15 ml-4 sm:mt-1">
             <div className="font-extrabold text-base sm:text-2xl md:text-3xl text-gray-700 text-center bg-[#FFF5EE] sm:p-6 p-4 rounded-4xl sm:border-r-9 sm:border-b-9 border-gray-500  hover:border-5 hover:border-gray-700 hover:transition-all ease-in-out duration-75 border-r-5 border-b-5">
               <h2 className="relative z-10">
                 <a
@@ -223,7 +223,7 @@ const Home = () => {
             </div>
           </div>
 
-          <div className="flex justify-center items-center mt-16 mr-4 sm:mt-3">
+          <div className="flex justify-center items-center mt-15 mr-4 sm:mt-1">
             <div className="font-extrabold text-base sm:text-2xl md:text-3xl text-gray-700 text-center bg-[#FFF5EE] sm:p-6 p-4 rounded-4xl sm:border-r-9 sm:border-b-9 border-gray-500  hover:border-5 hover:border-gray-700 hover:transition-all ease-in-out duration-75 border-r-5 border-b-5">
               <h2 className="relative z-10">
                 <a
