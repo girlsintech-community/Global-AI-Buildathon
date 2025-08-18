@@ -24,7 +24,7 @@ const Navbar = () => {
         className=" border-3 border-red-300 rounded-4xl shadow-lg"
         style={{ backgroundColor: "#FFF5EE" }}
       >
-        <div className="flex justify-between items-center h-17 px-6 ">
+        <div className="flex justify-between items-center h-10 sm:h-17 px-6 ">
           {/* Logo */}
           <NavLink
             href="/About"
@@ -34,7 +34,7 @@ const Navbar = () => {
             <img
               src="logo.png"
               alt="glt-logo"
-              className="h-15 w-15 object-contain"
+              className="sm:h-15 sm:w-15 h-10 w-10 object-contain"
             />
           </NavLink>
 

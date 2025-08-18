@@ -170,7 +170,7 @@ const Home = () => {
   ];
   return (
     <div>
-      <section className="bg-[#ff5757] pb-10 sm:pb-10">
+      <section className="bg-[#ff5757] pb-15 sm:pb-10">
         <div className="relative border-t-[105px] sm:border-t-[100px] border-[#ff5757]">
           <svg
             viewBox="0 0 1200 20"
@@ -190,7 +190,7 @@ const Home = () => {
           alt="banner"
           className="w-full hidden sm:h-[65vh] sm:inline-block object-fit"
         />
-        <img src="mobilebanner.png" alt="banner" className="sm:hidden w-full h-full"/>
+        <img src="finalbanner.png" alt="banner" className="sm:hidden w-auto h-100"/>
         <div className="relative sm:-mt-3">
           <svg
             viewBox="0 0 1200 20"
@@ -210,7 +210,7 @@ const Home = () => {
         </h2>
 
         <div className="flex gap-3 justify-center items-center">
-          <div className="flex justify-center items-center mt-12 ml-4 sm:mt-3">
+          <div className="flex justify-center items-center mt-16 ml-4 sm:mt-3">
             <div className="font-extrabold text-base sm:text-2xl md:text-3xl text-gray-700 text-center bg-[#FFF5EE] sm:p-6 p-4 rounded-4xl sm:border-r-9 sm:border-b-9 border-gray-500  hover:border-5 hover:border-gray-700 hover:transition-all ease-in-out duration-75 border-r-5 border-b-5">
               <h2 className="relative z-10">
                 <a
@@ -223,7 +223,7 @@ const Home = () => {
             </div>
           </div>
 
-          <div className="flex justify-center items-center mt-12 mr-4 sm:mt-3">
+          <div className="flex justify-center items-center mt-16 mr-4 sm:mt-3">
             <div className="font-extrabold text-base sm:text-2xl md:text-3xl text-gray-700 text-center bg-[#FFF5EE] sm:p-6 p-4 rounded-4xl sm:border-r-9 sm:border-b-9 border-gray-500  hover:border-5 hover:border-gray-700 hover:transition-all ease-in-out duration-75 border-r-5 border-b-5">
               <h2 className="relative z-10">
                 <a
