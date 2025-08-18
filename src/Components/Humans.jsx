@@ -19,7 +19,7 @@ const Human = [
   {
     name: "Vanshika Reja",
     company: "Evaluation lead",
-    role: "Senior Engineer",
+    role: "Uttar Pradesh",
     image: "vanshika.jpg",
     linkedinUrl: "https://www.linkedin.com/in/vanshika-reja-50400b2a1/",
   },
@@ -47,7 +47,7 @@ const Human = [
    {
     name: "Ananya Agarwal", 
     company: "Design Lead",
-    role: "Delhi",
+    role: "Mumbai",
     image: "ananya.jpg",
     linkedinUrl: "hthttps://www.linkedin.com/in/ananya-agarwal-861317290/",
   },
