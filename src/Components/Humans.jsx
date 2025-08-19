@@ -83,6 +83,13 @@ const mentors = [
     linkedinUrl: "https://www.linkedin.com/in/ekta-kumar-esg/",
   },
   {
+    name: "Palakh Khanna",
+    company: "Founder",
+    role: "Break The Ice",
+    image: "palakh.jpeg",
+    linkedinUrl: "https://www.linkedin.com/in/palakh-khanna/",
+  },
+  {
     name: "Shreya Mathur",
     company: "Mobisec <br>Technologies",
     role: "SWE Intern",
@@ -97,7 +104,7 @@ const Humans = () => {
       <div>
         <div class="flex justify-center items-center mt-40 mb-10">
           <div class="font-extrabold text-xl sm:text-2xl md:text-3xl text-red-400 text-center bg-gray-700 p-6 rounded-4xl border-r-9 border-b-9 border-red-300 hover:text-gray-700 hover:border-gray-500 relative inline-block overflow-hidden group">
-            <h2 class="relative z-10">Mentors & Judges</h2>
+            <h2 class="relative z-10">Speakers & Judges</h2>
 
             <span class="absolute inset-0 bg-red-400 translate-y-full transition-transform duration-700 ease-in-out group-hover:translate-y-0"></span>
           </div>

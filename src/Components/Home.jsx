@@ -27,14 +27,15 @@ const Home = () => {
   const stats = [
     {
       id: 1,
-      heading: "15k+",
-      content: "Social Media",
+      heading: "50k+",
+      content: "Reach",
     },
     {
       id: 2,
-      heading: "50000+",
-      content: "Reach",
+      heading: "15k+",
+      content: "Social Media",
     },
+    
     {
       id: 3,
       heading: "1000+",
@@ -47,7 +48,7 @@ const Home = () => {
     },
     {
       id: 5,
-      heading: "250+",
+      heading: "500+",
       content: "Registrations",
     },
     {
