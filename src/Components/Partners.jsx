@@ -61,6 +61,12 @@ const Partners = (props) => {
       company: "DARZY AI - HIRING PARTNER",
       hyperlink: "https://www.darzy.ai/",
     },
+    {
+      name: "acelint",
+      image: "acelint.jpg",
+      company: "ACELINT",
+      hyperlink: "https://www.ascentregtech.com/",
+    },
   ];
   return (
     <div>
