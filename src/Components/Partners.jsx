@@ -39,7 +39,7 @@ const Partners = (props) => {
   const partner = [
     {
       name: "unstop",
-      image: "unstop.png",
+      image: "https://d8it4huxumps7.cloudfront.net/uploads/images/unstop/branding-guidelines/logos/blue/Unstop-Logo-Blue-Large.png",
       company: "UNSTOP",
       hyperlink: "https://unstop.com/",
     },
@@ -55,6 +55,12 @@ const Partners = (props) => {
       company: "WELZIN AI - HIRING PARTNER",
       hyperlink: "https://www.welzin.ai/",
     },
+     {
+      name: "darzy",
+      image: "https://media.licdn.com/dms/image/v2/D560BAQEMo9bn5XDMIg/company-logo_200_200/B56ZdffNAiHUAI-/0/1749653705229/darzy_ai_logo?e=1758758400&v=beta&t=s0sHX4zOAEPei_06dNNYZ1LZtFzNkXVCOYrADUg7qIQ",
+      company: "DARZY AI - HIRING PARTNER",
+      hyperlink: "https://www.darzy.ai/",
+    },
   ];
   return (
     <div>
@@ -65,7 +71,7 @@ const Partners = (props) => {
           <span class="absolute inset-0 bg-red-400 translate-y-full transition-transform duration-700 ease-in-out group-hover:translate-y-0"></span>
         </div>
       </div>
-      <div className="gap-8 px-4 flex-wrap flex sm:flex justify-center items-center rounded-2xl">
+      <div className="gap-8 px-4 flex-wrap flex sm:flex justify-center items-center rounded-2xl object-contain">
         {partner.map((partnerItem, index) => (
           <PartnerCard
             key={index}
