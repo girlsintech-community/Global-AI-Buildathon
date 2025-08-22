@@ -49,6 +49,12 @@ const Partners = (props) => {
       company: "Code 4 GovTech",
       hyperlink: "http://codeforgovtech.in/",
     },
+    {
+      name: "welzin",
+      image: "hiring.jpg",
+      company: "WELZIN AI - HIRING PARTNER",
+      hyperlink: "https://www.welzin.ai/",
+    },
   ];
   return (
     <div>
