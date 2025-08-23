@@ -38,8 +38,8 @@ const Home = () => {
     
     {
       id: 3,
-      heading: "1000+",
-      content: "Mentees",
+      heading: "700+",
+      content: "Registrations",
     },
     {
       id: 4,
@@ -48,8 +48,13 @@ const Home = () => {
     },
     {
       id: 5,
-      heading: "500+",
-      content: "Registrations",
+      heading: "50+",
+      content: "Projects",
+    },
+    {
+      id: 5,
+      heading: "20+",
+      content: "States",
     },
     {
       id: 6,
@@ -212,19 +217,19 @@ const Home = () => {
 
         <div className="flex gap-3 justify-center items-center">
           <div className="flex justify-center items-center mt-15 ml-4 sm:mt-1">
-            <div className="font-extrabold text-base sm:text-2xl md:text-3xl text-gray-700 text-center bg-[#FFF5EE] sm:p-6 p-4 rounded-4xl sm:border-r-9 sm:border-b-9 border-gray-500  hover:border-5 hover:border-gray-700 hover:transition-all ease-in-out duration-75 border-r-5 border-b-5">
+            <div className="font-extrabold text-xl sm:text-2xl md:text-3xl text-gray-700 text-center bg-[#FFF5EE] sm:p-6 p-4 rounded-4xl sm:border-r-9 sm:border-b-9 border-gray-500  hover:border-5 hover:border-gray-700 hover:transition-all ease-in-out duration-75 border-r-5 border-b-5">
               <h2 className="relative z-10">
                 <a
                   href="https://unstop.com/hackathons/global-ai-buildathon-chandigarh-group-of-colleges-landran-1531869/"
                   target="_blank"
                 >
-                  Register Now on Unstop
+                  View on Unstop
                 </a>
               </h2>
             </div>
           </div>
 
-          <div className="flex justify-center items-center mt-15 mr-4 sm:mt-1">
+          {/* <div className="flex justify-center items-center mt-15 mr-4 sm:mt-1">
             <div className="font-extrabold text-base sm:text-2xl md:text-3xl text-gray-700 text-center bg-[#FFF5EE] sm:p-6 p-4 rounded-4xl sm:border-r-9 sm:border-b-9 border-gray-500  hover:border-5 hover:border-gray-700 hover:transition-all ease-in-out duration-75 border-r-5 border-b-5">
               <h2 className="relative z-10">
                 <a
@@ -235,7 +240,7 @@ const Home = () => {
                 </a>
               </h2>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
 
@@ -326,7 +331,7 @@ const Home = () => {
           <span className="absolute inset-0 bg-red-400 translate-y-full transition-transform duration-700 ease-in-out group-hover:translate-y-0"></span>
         </div>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 xl:grid-cols-6 gap-6 justify-items-center p-8 text-center items-center">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-7 xl:grid-cols-7 gap-6 justify-items-center p-8 text-center items-center">
         {stats.map((card) => (
           <Card
             key={card.id}

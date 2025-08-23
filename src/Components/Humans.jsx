@@ -68,20 +68,20 @@ const Human = [
 ];
 
 const mentors = [
-  {
-    name: "Geeta Kakrani",
-    company: "Google",
-    role: "Google Developer Expert",
-    image: "https://media.licdn.com/dms/image/v2/D4D22AQHxxTyHEHK7-g/feedshare-shrink_2048_1536/B4DZcLrmRoIEAo-/0/1748247668704?e=1758153600&v=beta&t=o4EbxCOKBudyVUCC8vB3EYhHIBxe1ei-eOv1QxzlTPU",
-    linkedinUrl: "https://www.linkedin.com/in/geetakakrani/",
-  },
-  {
-    name: "Ekta Kumar",
-    company: "Govt. of India",
-    role: "Social Defence Fellow",
-    image: "https://media.licdn.com/dms/image/v2/D5622AQHArwaathKRLg/feedshare-shrink_2048_1536/B56ZawC7HBHgAo-/0/1746710279538?e=1758153600&v=beta&t=8joH8QfzOpWlw2I7Dfq4ReYyBn6sLzo6Xin8f4cJQXQ",
-    linkedinUrl: "https://www.linkedin.com/in/ekta-kumar-esg/",
-  },
+  // {
+  //   name: "Geeta Kakrani",
+  //   company: "Google",
+  //   role: "Google Developer Expert",
+  //   image: "https://media.licdn.com/dms/image/v2/D4D22AQHxxTyHEHK7-g/feedshare-shrink_2048_1536/B4DZcLrmRoIEAo-/0/1748247668704?e=1758153600&v=beta&t=o4EbxCOKBudyVUCC8vB3EYhHIBxe1ei-eOv1QxzlTPU",
+  //   linkedinUrl: "https://www.linkedin.com/in/geetakakrani/",
+  // },
+  // {
+  //   name: "Ekta Kumar",
+  //   company: "Govt. of India",
+  //   role: "Social Defence Fellow",
+  //   image: "https://media.licdn.com/dms/image/v2/D5622AQHArwaathKRLg/feedshare-shrink_2048_1536/B56ZawC7HBHgAo-/0/1746710279538?e=1758153600&v=beta&t=8joH8QfzOpWlw2I7Dfq4ReYyBn6sLzo6Xin8f4cJQXQ",
+  //   linkedinUrl: "https://www.linkedin.com/in/ekta-kumar-esg/",
+  // },
   {
     name: "Palakh Khanna",
     company: "Founder",
@@ -109,7 +109,7 @@ const Humans = () => {
             <span class="absolute inset-0 bg-red-400 translate-y-full transition-transform duration-700 ease-in-out group-hover:translate-y-0"></span>
           </div>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-6 m-5 xl:ml-55 xl:mr-55 mb-9 object-fit">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-6 m-5 xl:ml-110 xl:mb-9 object-fit">
           {mentors.map((mentor, index) => (
             <MentorCard
               key={index}
