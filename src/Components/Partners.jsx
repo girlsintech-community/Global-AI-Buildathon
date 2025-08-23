@@ -62,10 +62,10 @@ const Partners = (props) => {
       hyperlink: "https://www.darzy.ai/",
     },
     {
-      name: "acelint",
+      name: "aceint",
       image: "acelint.jpg",
-      company: "ACELINT",
-      hyperlink: "https://www.ascentregtech.com/",
+      company: "ACEINT",
+      hyperlink: "https://aceint.ai",
     },
   ];
   return (
