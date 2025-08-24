@@ -32,11 +32,11 @@ const Winners = () => {
   const seed = [
     {
       name: "Anshika Singh",
-      company: "Grand Winner",
+      company: "Nature Lover",
       role: "Delhi",
       image: "anshika.jpg",
       linkedinUrl: "https://www.linkedin.com/in/anshika-singh093/",
-      position: "winner.svg",
+      position: "plant.png",
     },
   ];
   return (
@@ -66,7 +66,7 @@ const Winners = () => {
       <hr className="border-t-5 border-dashed border-red-400" />
       <div class="flex justify-center items-center mt-20 mb-10">
         <div class="font-extrabold text-xl sm:text-2xl md:text-3xl text-red-400 text-center bg-gray-700 p-6 rounded-4xl border-r-9 border-b-9 border-red-300 hover:text-gray-700 hover:border-gray-500 relative inline-block overflow-hidden group">
-          <h2 class="relative z-10">Seed Sow Activity WInner</h2>
+          <h2 class="relative z-10">"Sow a Seed", An initiative towards sustainable environment</h2>
 
           <span class="absolute inset-0 bg-red-400 translate-y-full transition-transform duration-700 ease-in-out group-hover:translate-y-0"></span>
         </div>
