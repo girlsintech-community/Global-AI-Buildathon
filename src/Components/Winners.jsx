@@ -74,19 +74,24 @@ const Winners = () => {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-6 m-5 pr-8 pl-8 object-cover xl:ml-70">
         <div>
-        {seed.map((seed, index) => (
-          <WinnerCard
-            key={index}
-            name={seed.name}
-            company={seed.company}
-            role={seed.role}
-            image={seed.image}
-            linkedinUrl={seed.linkedinUrl}
-            position={seed.position}
-          />
-        ))}
-      </div>
-      <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7365241245553606657?collapsed=1" height="480" width="700" frameborder="0" allowfullscreen="" title="Embedded post" className="mt-4 rounded-2xl"></iframe>
+          {seed.map((seed, index) => (
+            <WinnerCard
+              key={index}
+              name={seed.name}
+              company={seed.company}
+              role={seed.role}
+              image={seed.image}
+              linkedinUrl={seed.linkedinUrl}
+              position={seed.position}
+            />
+          ))}
+        </div>
+        <iframe
+          src="https://www.linkedin.com/embed/feed/update/urn:li:share:7365241245553606657?collapsed=1"
+          className="w-full max-w-2xl h-100 sm:h-100 lg:h-[480px] lg:w-[680px] border-0 rounded-2xl shadow-lg lg:mt-4"
+          allowFullScreen
+          title="LinkedIn Embedded Post"
+        />
       </div>
     </div>
   );
