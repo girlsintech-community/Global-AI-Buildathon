@@ -15,6 +15,7 @@ import AppWithPreloader from "./AppwithPreloader.jsx";
 import Tracks from "./Components/Tracks.jsx";
 import Rules from "./Components/Rules.jsx";
 import Faq from "./Components/Faq.jsx";
+import Winners from "./Components/Winners.jsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -26,6 +27,7 @@ const router = createBrowserRouter(
       <Route path="/tracks" element={<Tracks />} />
       <Route path="/faqs" element={<Faq />} />
       <Route path="/rules" element={<Rules />} />
+      <Route path="/winners" element={<Winners />} />
     </Route>
   )
 );

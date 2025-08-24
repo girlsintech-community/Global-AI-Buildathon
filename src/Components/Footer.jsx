@@ -172,6 +172,14 @@ export default function Footer() {
                     Humans
                   </Link>
                 </li>
+                 <li>
+                  <Link
+                    to="/winners"
+                    className="text-sm sm:text-base hover:underline hover:text-gray-500 transition-colors"
+                  >
+                    Winners
+                  </Link>
+                </li>
                 <li>
                   <Link
                     to="/faqs"
