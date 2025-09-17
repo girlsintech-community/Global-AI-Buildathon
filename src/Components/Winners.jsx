@@ -131,13 +131,13 @@ const Winners = () => {
             heading="Project Details - Genova-AI"
             content="Evo2 by Team Chromies is an AI-powered pathogenicity predictor that revolutionizes genetic variant interpretation. Traditional methods are slow, costly, and inconsistent—Evo2 delivers results in under 30 seconds with over 90% accuracy. With a user-friendly dashboard, genome search, real-time comparisons, and detailed confidence reports, it empowers clinicians to make faster, standardized, and more reliable decisions. By reducing costs and improving precision medicine, Evo2 advances global healthcare and supports the UN’s health-focused SDGs."
             height="auto"
-            width="1500px"
+            width="1300px"
           />
         </div>
         <br></br>
         <hr className="border-t-5 border-dashed border-red-400" />
 
-        <div className="xl:pl-135 xl:pr-135">
+        <div className="xl:pl-120 xl:pr-120">
           <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-1 xl:grid-cols-1 gap-6 justify-center align-middle m-5 pr-8 pl-8 object-contain">
             {secondwinners.map((winners, index) => (
               <WinnerCard
@@ -157,7 +157,7 @@ const Winners = () => {
             heading="Project Details"
             content="HealthAI, presented by Varsha Dewangan at the Global AI Buildathon, is an AI-powered healthcare platform designed to make medical guidance accessible, affordable, and scalable for underserved populations. Leveraging Google Gemini AI, NLP, and real-time updates, it delivers instant, personalized health insights with 95% accuracy and subsecond response times. With features like symptom analysis, tailored recommendations, and a 24/7 health library, HealthAI aligns with UN SDG 3 and envisions integrating wearables and predictive insights to transform global healthcare access."
             height="auto"
-            width="1500px"
+            width="1300px"
           />
         </div>
         <br></br>
@@ -183,7 +183,7 @@ const Winners = () => {
             heading="Project Details - AI ECO-STORYTELLER"
             content="Echo Storyteller by Team Hackronauts is an innovative app that transforms everyday actions into personalized sustainability stories. Instead of just showing carbon footprint numbers, it narrates engaging stories of users’ choices, making climate action relatable and fun. With features like insights, eco-friendly suggestions, progress tracking, “what-if” scenarios, and guided green paths, it gamifies sustainable living. Built on React, Django, NLP, and Google TTS, it aligns with UN SDGs and inspires individuals to adopt lasting eco-friendly habits."
             height="auto"
-            width="1500px"
+            width="1300px"
           />
         </div>
         <br></br>
