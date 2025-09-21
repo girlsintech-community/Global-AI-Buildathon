@@ -135,7 +135,7 @@ const Rules = () => {
 
       <div className="mb-20">
         <div className="hidden md:block mx-15">
-          <div className="flex justify-center space-x-4 xl:ml-20">
+          <div className="flex justify-center space-x-4">
             {judgetestimonials.map((rule, index) => (
               <Testimonials
                 key={index}
@@ -143,7 +143,7 @@ const Rules = () => {
                 content={rule.content}
                 photo={rule.photo}
                 height={"auto"}
-                width={"1050px"}
+                width={"1250px"}
                 linkedinUrl={rule.linkedinUrl}
               />
             ))}
