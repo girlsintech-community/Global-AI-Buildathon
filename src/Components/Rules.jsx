@@ -1,5 +1,7 @@
 import React from "react";
 import Card from "./Card";
+import Testimonials from "./Testimonials";
+import JudgeTesti from "./JudgeTesti";
 
 const Rules = () => {
   const rulesData = [
@@ -46,6 +48,39 @@ const Rules = () => {
     },
   ];
 
+  const judgetestimonials = [
+    {
+      content: `What a lovely initiative! It was a pleasure to be a special guest for the opening ceremony and share my insights, and glad to see that the theme was the SDGs. <br> <br> To all the young innovators who took part, have an intersectional lens, question, focus on impact and the cause, and build for a sustainable future FOR ALL! All the best :) <br> <br>`,
+      photo: "palakh.jpeg",
+      heading: "Palakh Khanna, Speaker of our Event",
+      linkedinUrl: "https://www.linkedin.com/in/palakh-khanna/",
+    },
+  ];
+  const testimonials = [
+    {
+      content:
+        `The Buildathon gave me the perfect blend of innovation and collaboration. I explored new AI tools, enhanced my problem-solving skills, and gained valuable exposure to real-world challenges. From code to creativity, the Global AI Buildathon pushed me to think bigger, build bolder, and dream limitless with AI.
+        <br> <br>`,
+      photo: "ruchika.jpg",
+      heading: "Ruchika Kengal",
+      linkedinUrl: "https://www.linkedin.com/in/selvasundar-rajan-788a0330a/",
+    },
+    {
+      content:
+        "Participating in the hackathon was an incredible learning experience. I got to build my project from scratch, explore AI tools like Google Gemini, and solve real-world problems creatively. Collaborating with teammates under time pressure improved my problem-solving and project management skills. It was challenging, fun, and highly rewarding!",
+      photo: "rutika.jpeg",
+      heading: "Rutika",
+      linkedinUrl: "https://www.linkedin.com/in/rutika-kengal-b3b0a22b7/",
+    },
+    {
+      content:
+        "The Buildathon Overall, it was a wonderful experience! The theme was truly engaging, and I really appreciated how the organizers added small activities in between the hackathon—it kept the energy high and made the event more interactive. The video presentation segment was also a great learning opportunity. Along with coding, me and my teammate gained valuable insights beyond just technical skills gave me the perfect blend of innovation and collaboration.",
+      photo: "shyama.png",
+      heading: "The Visionaries",
+      linkedinUrl: "https://www.linkedin.com/in/shyama-tripathi-227611250/",
+    },
+  ];
+
   return (
     <div>
       {/* Title */}
@@ -88,6 +123,72 @@ const Rules = () => {
               />
             </div>
           ))}
+        </div>
+      </div>
+
+       <hr className="border-t-5 border-dashed border-red-400" />
+
+      <div className="flex justify-center items-center mt-20 mb-10">
+        <div className="font-extrabold text-xl sm:text-2xl md:text-3xl text-red-400 text-center bg-gray-700 p-6 rounded-4xl border-r-9 border-b-9 border-red-300 hover:text-gray-700 hover:border-gray-500 relative inline-block overflow-hidden group">
+          <h2 className="relative z-10">Testimonials</h2>
+          <span className="absolute inset-0 bg-red-400 translate-y-full transition-transform duration-700 ease-in-out group-hover:translate-y-0"></span>
+        </div>
+      </div>
+
+      <div className="mb-20">
+        <div className="hidden md:block mx-15">
+          <div className="flex justify-between space-x-4 xl:ml-20">
+            {judgetestimonials.map((rule, index) => (
+              <JudgeTesti
+                key={index}
+                heading={rule.heading}
+                content={rule.content}
+                photo={rule.photo}
+                height={"auto"}
+                width={"1350px"}
+                linkedinUrl={rule.linkedinUrl}
+              />
+            ))}
+          </div>
+        </div>
+
+        <div className="mb-20">
+          {/* Desktop / Tablet (Horizontal Scroll Animation) */}
+          <div className="hidden md:block">
+            <div className="flex xl:ml-28 xl:mr-28">
+              {testimonials.map((rule, index) => (
+                <Testimonials
+                  key={index}
+                  heading={rule.heading}
+                  content={rule.content}
+                  photo={rule.photo}
+                  height={"auto"}
+                  width={"auto"}
+                  linkedinUrl={rule.linkedinUrl}
+                />
+              ))}
+            </div>
+          </div>
+
+          {/* Mobile (Vertical Stack) */}
+          <div className="flex flex-col gap-6 md:hidden px-6">
+            {testimonials.map((rule, index) => (
+              <div
+                key={index}
+                className="transform transition duration-500 ease-in-out hover:scale-105"
+              >
+                <Testimonials
+                  key={index}
+                  heading={rule.heading}
+                  content={rule.content}
+                  photo={rule.photo}
+                  height={"390px"}
+                  width={"auto"}
+                  linkedinUrl={rule.linkedinUrl}
+                />
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </div>

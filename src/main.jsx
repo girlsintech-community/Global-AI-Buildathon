@@ -16,6 +16,7 @@ import Tracks from "./Components/Tracks.jsx";
 import Rules from "./Components/Rules.jsx";
 import Faq from "./Components/Faq.jsx";
 import Winners from "./Components/Winners.jsx";
+import Projects from "./Components/Projects.jsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -28,13 +29,13 @@ const router = createBrowserRouter(
       <Route path="/faqs" element={<Faq />} />
       <Route path="/rules" element={<Rules />} />
       <Route path="/winners" element={<Winners />} />
+      <Route path="/projects" element={<Projects />} />
     </Route>
   )
 );
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <AppWithPreloader router={router}>
-    </AppWithPreloader>
+    <AppWithPreloader router={router}></AppWithPreloader>
   </StrictMode>
 );

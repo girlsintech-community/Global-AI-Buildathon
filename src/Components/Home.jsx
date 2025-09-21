@@ -27,7 +27,7 @@ const Home = () => {
   const stats = [
     {
       id: 1,
-      heading: "50k+",
+      heading: "58k+",
       content: "Reach",
     },
     {
@@ -43,23 +43,18 @@ const Home = () => {
     },
     {
       id: 4,
-      heading: "450+",
-      content: "College Reach",
+      heading: "400+",
+      content: "Teams",
     },
     {
       id: 5,
-      heading: "50+",
+      heading: "80+",
       content: "Projects",
     },
     {
       id: 5,
       heading: "20+",
       content: "States",
-    },
-    {
-      id: 6,
-      heading: "7+",
-      content: "Countries",
     },
   ];
 
@@ -331,7 +326,7 @@ const Home = () => {
           <span className="absolute inset-0 bg-red-400 translate-y-full transition-transform duration-700 ease-in-out group-hover:translate-y-0"></span>
         </div>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-7 xl:grid-cols-7 gap-6 justify-items-center p-8 text-center items-center">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 xl:grid-cols-6 gap-6 justify-items-center p-8 text-center items-center">
         {stats.map((card) => (
           <Card
             key={card.id}

@@ -14,8 +14,9 @@ const Navbar = () => {
     { label: "Humans", href: "/humans" },
     { label: "Partners", href: "/partners" },
     { label: "Wall of Fame", href: "/winners" },
+    { label: "Projects", href: "/projects" },
     { label: "Theme & Activities", href: "/tracks" },
-    { label: "Rules", href: "/rules" },
+    { label: "Rules & Testimonials", href: "/rules" },
     { label: "FAQs", href: "/faqs" },
   ];
 
