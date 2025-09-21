@@ -6,7 +6,7 @@ const Human = [
     name: "Aditi Chaudhary",
     company: "Cohort Lead",
     role: "Delhi",
-    image: "https://media.licdn.com/dms/image/v2/D4D03AQH2j2wwOz56Bw/profile-displayphoto-shrink_400_400/B4DZRPD6gXHcAg-/0/1736493222475?e=1758153600&v=beta&t=mueU4uEzY-6wGZEXm_H2DlzoyDXJ9lgFH8-UaGFPtNc",
+    image: "aditi.jpeg",
     linkedinUrl: "https://www.linkedin.com/in/aditi-chaudhary-aa7778329/",
   },
   {
@@ -55,7 +55,7 @@ const Human = [
     name: "Mahak",
     company: "Tech Lead",
     role: "Delhi",
-    image: "https://media.licdn.com/dms/image/v2/D5603AQGd9chiFLWqbw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1723394154089?e=1758153600&v=beta&t=wyvzCUGrPECK2wmo9Go8TOvbMK4tUo6Tl9MJ-oQcxTw",
+    image: "mahak.jpeg",
     linkedinUrl: "https://www.linkedin.com/in/documentdiarieswithmahak/",
   },
   {

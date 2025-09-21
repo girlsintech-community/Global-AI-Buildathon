@@ -145,7 +145,7 @@ const Rules = () => {
                 content={rule.content}
                 photo={rule.photo}
                 height={"auto"}
-                width={"1350px"}
+                width={"1050px"}
                 linkedinUrl={rule.linkedinUrl}
               />
             ))}
