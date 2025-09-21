@@ -1,8 +1,6 @@
 import React from "react";
 import Card from "./Card";
 import Testimonials from "./Testimonials";
-import JudgeTesti from "./JudgeTesti";
-
 const Rules = () => {
   const rulesData = [
     {
@@ -137,9 +135,9 @@ const Rules = () => {
 
       <div className="mb-20">
         <div className="hidden md:block mx-15">
-          <div className="flex justify-between space-x-4 xl:ml-20">
+          <div className="flex justify-center space-x-4 xl:ml-20">
             {judgetestimonials.map((rule, index) => (
-              <JudgeTesti
+              <Testimonials
                 key={index}
                 heading={rule.heading}
                 content={rule.content}
