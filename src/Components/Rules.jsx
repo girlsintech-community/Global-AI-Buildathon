@@ -168,6 +168,25 @@ const Rules = () => {
             </div>
           </div>
 
+          <div className="flex flex-col gap-6 md:hidden px-6">
+            {judgetestimonials.map((rule, index) => (
+              <div
+                key={index}
+                className="transform transition duration-500 ease-in-out hover:scale-105"
+              >
+                <Testimonials
+                  key={index}
+                  heading={rule.heading}
+                  content={rule.content}
+                  photo={rule.photo}
+                  height={"auto"}
+                  width={"auto"}
+                  linkedinUrl={rule.linkedinUrl}
+                />
+              </div>
+            ))}
+          </div>
+
           {/* Mobile (Vertical Stack) */}
           <div className="flex flex-col gap-6 md:hidden px-6">
             {testimonials.map((rule, index) => (
@@ -180,7 +199,7 @@ const Rules = () => {
                   heading={rule.heading}
                   content={rule.content}
                   photo={rule.photo}
-                  height={"390px"}
+                  height={"auto"}
                   width={"auto"}
                   linkedinUrl={rule.linkedinUrl}
                 />
